@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-image: url(./assets/bg2.png);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #1b0a0a;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+header{
+    text-align:center;
+}
+
+    header img {        
+        width: 60%;
+        margin-top: 24px;
+    }
+
+.cabecalhoVogais img{
+    text-align: center;
+    width: 100px;
+    margin-top: 24px;
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 24px;
+    margin-top: 15px;
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg, white 0%, white 100%);
+    padding-bottom: 4px;
+    border-radius: 10px;
+}
+    section div {
+        background-color: #130707;
+        padding: 32px;
+        padding-top: 24px;
+        border-radius: 8px;
+
+        transition: transform .3s;
+    }
+    section ul li {
+        transition: transform .3s;
+    }
+    section ul li:hover {
+        transform: scale(1.1)
+    }
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+    section p {
+        latter-spacing: -0.18px;
+        color: #9f8787;
+    }
+
+    section ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+
+        margin-top: 24px;
+    }
+
+.Redes_Sociais img {
+    border-radius: 50%;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;    
+}
+
+.Atividades_Relacionada_Vogais img {
+    position: center;
+    width: 90px;
+    border-radius: 8px;
+}
+
+.Menu {
+    max-width: 100px;
+}
+
+.Menu img {    
+    border-radius: 50%;
+    width: 70px;
+    border: 2px solid #ffffff;
+}
+.Atividades_Vogais img {
+    position: center;
+    width: 100px;
+    border-radius: 8px;
+}
