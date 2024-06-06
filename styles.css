@@ -30,7 +30,7 @@ header{
         margin-top: 24px;
     }
 
-.cabecalhoVogais img{
+.cabecalho_Atividades img {
     text-align: center;
     width: 100px;
     margin-top: 24px;
@@ -89,22 +89,18 @@ section h2 {
     border: 2px solid #ffffff;    
 }
 
-.Atividades_Relacionada_Vogais img {
+.Atividades_Relacionada img {
     position: center;
     width: 133px;
     border-radius: 8px;
 }
 
-.Menu {
-    max-width: 100px;
-}
-
-.Menu img {    
-    border-radius: 50%;
-    width: 70px;
-    border: 2px solid #ffffff;
-}
-.Atividades_Vogais img {
+    .Menu img {
+        width: 90px;
+        position: center;
+        border-radius: 8px;
+    }
+.Atividades img {
     position: center;
     width: 170px;
     border-radius: 8px;
