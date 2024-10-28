@@ -88,6 +88,12 @@ section h2 {
     border-radius: 50%;
     border: 2px solid #ffffff;    
 }
+.Dounload_Jogos img {
+    border-radius: 50%;
+    width: 90px;
+    border-radius: 10%;
+    border: 2px solid #ffffff;
+}
 
 .Atividades_Relacionada img {
     position: center;
